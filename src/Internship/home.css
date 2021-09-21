@@ -1,0 +1,48 @@
+.delete-btn{
+    margin: auto;
+    width: 100%;
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+    cursor: pointer;
+}
+.delete-btn:hover{
+ background-color: black;
+}
+.table{
+    margin: auto;
+    width: fit-content;
+    margin-top: 2%;
+}
+.main{
+    margin: auto;
+    width: fit-content;
+}
+.btn1{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    margin: auto;
+    width: fit-content;
+    font-size: 20px;
+}
+.btn2{
+    text-decoration: none;
+    color: brown;
+    margin: auto;
+    font-weight: bold;
+    width: fit-content;
+}
+.btn1:hover{
+    color: black;
+    cursor: pointer;
+}
+.btn2:hover{
+    color: black;
+    cursor: pointer;
+}
+.create-user{
+    margin: auto;
+    width: fit-content;
+    margin-top: 5%;
+}

@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState, useRef } from 'react';
+import { BrowserRouter, Route, Router } from 'react-router-dom';
+import Home from './Internship/home';
+import { CreateUser, ShowUser } from './Internship/CreateAndShow';
 
 function App() {
+
+  let [userArray, setuserArray] = useState([
+    {
+      name: 'Ahsan',
+      email: "ahsan1@gmail.com",
+      city: "Faisalabad",
+    },
+  ])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <BrowserRouter>
+          <Home path="/"></Home>
+          <Route path="/createUser" ><CreateUser setuserArray={setuserArray} userArray={userArray} /></Route>
+          <Route path="/showUser" ><ShowUser setuserArray={setuserArray} userArray={userArray} /></Route>
+        </BrowserRouter>
+     
     </div>
   );
 }
