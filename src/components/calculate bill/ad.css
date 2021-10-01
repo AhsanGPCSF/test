@@ -1,0 +1,87 @@
+
+.add-box{
+    border: 2px solid firebrick;
+    margin: 2px 2px;
+    border-radius: 5px;
+    width: auto;
+}
+.add-box:hover{
+    transform: scale(1.1);
+    background-color: firebrick;
+}
+.ad-img{
+    height: 120px;
+    width: 120px;
+}
+.ads{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.price{
+    border: none;
+    border-radius: 10px;
+    background: deepskyblue;
+    color: cornsilk;
+    width: fit-content;
+    margin: auto;
+}
+.dis{
+    color: rgb(15, 102, 131);
+    font-weight: bold;
+}
+.qty{
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Bill-bg{
+    color: rgb(25, 214, 198);
+    font-weight: bold;
+}
+.Bill-b{
+    color: rgb(25, 214, 198);
+    font-weight: bold;
+    background: none;
+    border: 2px solid rgb(25, 214, 198);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+.bb{
+    margin-left: 5px;
+}
+.Bill-b:hover{
+    background: rgb(25, 214, 198);
+    color: white;
+}
+.bold-bil{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(21, 145, 161);
+}
+.billing-border{
+    border: 2px solid rgb(25, 214, 198);
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.dish-list{
+    margin: auto;
+    border-radius: 5px;
+    border-color: rgb(25, 214, 198);
+}
+.selectD{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(25, 214, 198);
+}
+.SelSize{
+    width: 75px;
+}

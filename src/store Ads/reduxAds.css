@@ -1,0 +1,73 @@
+.ads-img{
+    height: 150px;
+    width: 200px;
+    /* border-radius: 25px; */
+}
+.ad-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#name{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    background-color: wheat;
+    
+}
+#price{
+    font-size: 20px;
+    font-weight: bold;
+    color: wheat;
+    background-color: darkred;
+
+}
+#b{
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 5px 5px;
+    border-color: darkred;
+    text-align: center;
+    /* border-radius: 25px; */
+    
+}
+.del-Ad{
+    padding: revert;
+    /* margin-left: 35%; */
+    color: darkred;
+    font-weight: bold;
+    background-color: wheat;
+    border-color:darkred;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.del-Ad:hover{
+    background-color: darkred;
+    color: wheat;
+}
+.del-Ada{
+    padding: revert;
+    margin-left: 29%;
+    color: darkred;
+    font-weight: bold;
+    background-color: wheat;
+    border-color:darkred;
+    border-radius: 5px;
+}
+.create-new{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 12px;
+}
+.nav-wrapper{
+    font-size: 25px;
+    margin: auto;
+    width: fit-content;
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

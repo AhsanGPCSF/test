@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body{
+        width:100vw;
+        height: 100vh;;
+    }
+</style>
+<body id="myBody" onmousemove="showData(event)">
+</body>
+<script>
+
+function showData(e) {
+
+    let half = innerWidth / 3;
+    let half2 = half+half;
+
+
+    if(e.clientX < half){
+        myBody.style.backgroundColor = "green";
+    }
+    else if(e.clientX < half2){
+        myBody.style.backgroundColor = "red";
+    }
+    else{
+        myBody.style.backgroundColor = "blue";
+    }
+
+    console.log(e.clientX);
+
+}
+
+
+</script>
+</html>
